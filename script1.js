@@ -50,21 +50,22 @@
 
 
 // 4. Prompt for a number and alert whether it is positive, negative, or zero.
-function checkNumber() {
-    let num = parseInt(prompt("Enter a number:"));
+// function checkNumber() {
+//     let num = parseInt(prompt("Enter a number:"));
 
-    if (num > 0) {
-        alert("The number is Positive");
-    }
-    else if (num < 0) {
-        alert("The number is Negative");
-    }
-    else if (num === 0) {
-        alert("The number is Zero");
-    }
-    else {
-        alert("Invalid input");
-    }
-}
+//     if (num > 0) {
+//         alert("The number is Positive");
+//     }
+//     else if (num < 0) {
+//         alert("The number is Negative");
+//     }
+//     else if (num === 0) {
+//         alert("The number is Zero");
+//     }
+//     else {
+//         alert("Invalid input");
+//     }
+// }
 
-checkNumber();
+// checkNumber();
+

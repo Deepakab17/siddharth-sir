@@ -48,12 +48,12 @@
 
 
 // let obj={
-//     name:"arvind",
+//     name:"Deepak",
 //     age:23,
-//     city:"satna"
+//     city:"Kolkata"
 // }
 // console.log(Object.entries(obj))
-// console.log(Object.keys(obj))
+// console.log(Object.values(obj))
 // var a=20
 // var b='6'
 // var c=a-b
@@ -61,4 +61,12 @@
 // console.log(typeof(c))
 // console.log(a==b)
 // console.log(a===b)
+// function vashu(){
+//    let a=parseInt(prompt("anter a number"))
+//    let b=parseInt(prompt("enter nother number"))
+//    let c=a+b
+//    alert(c)
+// }
+
+// vashu()
 
