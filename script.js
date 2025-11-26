@@ -47,13 +47,14 @@
 // console.log(res)
 
 
-// let obj={
+// let student ={
 //     name:"Deepak",
 //     age:23,
 //     city:"Kolkata"
 // }
-// console.log(Object.entries(obj))
-// console.log(Object.values(obj))
+// console.log(Object.entries(student))
+// console.log(Object.values(student))
+// console.log(typeof(student))
 // var a=20
 // var b='6'
 // var c=a-b
@@ -66,7 +67,34 @@
 //    let b=parseInt(prompt("enter nother number"))
 //    let c=a+b
 //    alert(c)
+
 // }
 
 // vashu()
+// let msg = "Deepak is my name"
+// let c=msg.trim()
+// let d=msg.replace("hello", "sharvan")
+// let e=msg.toUpperCase()
+// let f=msg.toLowerCase()
+// console.log(msg,c,d,e,f)
+// student='ankit, sharvan, deepak, ritu'
+// console.log(student.split(', '))
+// let b=25
+//  b=26
+//  console.log(b)
+// var a=5
+
+// function j(){
+//     var a=9
+//     console.log(a)
+// }
+// console.log(a)
+// j()
+
+ a=
+ console.log(a)
+
+
+
+
 
