@@ -1,7 +1,16 @@
-let obj={
-    name:"Deepak",
-    age:23,
-    city:"Kolkata"
+let name="my name is deepak"
+let words=""
+let rev=""
+for (let i=name.length-1;i>=0;i--){
+    if (name[i] !==" "){
+        words=name[i]+words
+        
+
+    }
+    else{
+        rev=rev+words+" "
+        words=" "
+    }
 }
-console.log(Object.entries(obj))
-console.log(Object.values(obj))
+rev=rev+words
+console.log(rev)

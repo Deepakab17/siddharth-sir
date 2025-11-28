@@ -71,9 +71,9 @@
 // }
 
 // vashu()
-// let msg = "Deepak is my name"
+// let msg = "Deepak is my name  "
 // let c=msg.trim()
-// let d=msg.replace("hello", "sharvan")
+// let d=msg.replace("Deepak is my name", "Vashu has taken over")
 // let e=msg.toUpperCase()
 // let f=msg.toLowerCase()
 // console.log(msg,c,d,e,f)
@@ -91,7 +91,7 @@
 // console.log(a)
 // j()
 
- a=
+let a
  console.log(a)
 
 
