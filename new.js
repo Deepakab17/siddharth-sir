@@ -50,6 +50,13 @@
 // str="cybrom"
 // console.log(str.split('').reverse().join(''))
 
-for (let i=2; i<=100;i=i+2){
-    console.log(i)
+
+
+l=[12,40,15,8,74,59,3]
+for (let i=0;i<=l.length;i++){
+    if (l[i]%2==0){
+         console.log(l[i])
+
+    }
+   
 }
