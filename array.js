@@ -24,11 +24,39 @@
 // console.log(obj);
 // console.log(obj.fruits[0])
 
-function greet(){
-    alert("Hello how are you")
-}
-function what(){
-    alert("i am deepak")
-}
+// function greet(){
+//     alert("Hello how are you")
+// }
+// function what(){
+//     alert("i am deepak")
+// }
+
+// let absolute=(a,b)=>{
+//     let c=a+b
+//     return c
+    
+// }
+// console.log(absolute(15,20))
+
+// function multiply (a,b){
+//     return a*b
+// }
+// console.log(add(5,5))
 
 
+// let add=(a,b)=> a*b
+
+// result=add(10,20)
+// console.log(result)
+
+let iseven =true
+let add=(a)=>{
+    if (a%2==0){
+        return true
+    }
+    else{
+        return false
+    }
+}
+
+console.log(add(5))
