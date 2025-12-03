@@ -49,14 +49,32 @@
 // result=add(10,20)
 // console.log(result)
 
-let iseven =true
-let add=(a)=>{
-    if (a%2==0){
-        return true
-    }
-    else{
-        return false
-    }
+// let iseven =true
+// let add=(a)=>{
+//     if (a%2==0){
+//         return true
+//     }
+//     else{
+//         return false
+//     }
+// }
+
+// console.log(add(5))
+// let Ankit=()=>{
+//     let b=document.querySelector("button")
+//     b.innerHTML =("abey kuttey<i> Sharvan </i>")
+//     // b.innerText ="this is inner text"
+//     button.style.color="blue"
+// }
+// let Sharvan=()=>{
+//     let c=document.queryselector("#yet")
+//     c.innerHTML = "fghnm"
+//     // c.style.backgroundcolor="red"
+// }
+
+let l=[10,20,30,40]
+for (let item in l){
+    console.log(item[l])
 }
 
-console.log(add(5))
+
