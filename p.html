@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Toggle Paragraph</title>
+</head>
+<body>
+
+<p id="para">Yeh ek paragraph hai, button dabate hi hide/show hoga.</p>
+
+<button onclick="togglePara()">Hide / Show</button>
+
+<script>
+function togglePara() {
+    const p = document.getElementById("para");
+
+    if (p.style.display === "none") {
+        p.style.display = "block"; 
+    } else {
+        p.style.display = "none"; 
+    }
+}
+</script>
+
+</body>
+</html>

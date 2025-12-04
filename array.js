@@ -66,15 +66,15 @@
 //     // b.innerText ="this is inner text"
 //     button.style.color="blue"
 // }
-// let Sharvan=()=>{
-//     let c=document.queryselector("#yet")
-//     c.innerHTML = "fghnm"
-//     // c.style.backgroundcolor="red"
-// }
-
-let l=[10,20,30,40]
-for (let item in l){
-    console.log(item[l])
+let Sharvan=()=>{
+    let c=document.queryselector("#yet")
+    c.display='none'
+    // c.style.backgroundcolor="red"
 }
+
+// let l=[10,20,30,40]
+// for (let item in l){
+//     console.log(item[l])
+// }
 
 
