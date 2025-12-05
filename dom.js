@@ -17,3 +17,9 @@
 //     document.getElementById("para").style.display = "block";
 // }
 
+let show=()=>{
+    let okk=document.querySelector("#myname").views
+    okk.style.
+
+}
+
