@@ -66,15 +66,21 @@
 //     // b.innerText ="this is inner text"
 //     button.style.color="blue"
 // }
-let Sharvan=()=>{
-    let c=document.queryselector("#yet")
-    c.display='none'
+// let Sharvan=()=>{
+//     let c=document.queryselector("#yet")
+//     c.display='none'
     // c.style.backgroundcolor="red"
-}
+// }
 
 // let l=[10,20,30,40]
 // for (let item in l){
 //     console.log(item[l])
 // }
+let paint = () => {
+    let values = document.querySelector('#color').value;
+    let a = document.querySelector('#box');
+    a.style.backgroundColor = values;
+}
+
 
 
