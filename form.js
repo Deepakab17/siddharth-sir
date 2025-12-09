@@ -45,10 +45,15 @@ let FormValidate=()=>{
         Errpass.style.color='aqua'
         return false
     }
-    else if (Cpass==""){
+    if (Cpass==""){
         Errcpass.innerHTML="kaisa laga"
         Errcpass.style.color='aqua'
         return false
     }
+    else if(cpass != pass){
+        alert("password does not match")
+        return false
+    }
+
 
 }
