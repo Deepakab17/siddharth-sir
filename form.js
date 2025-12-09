@@ -1,9 +1,9 @@
 let FormValidate=()=>{
-    let Name=document.querySelector('#name').value
-    let Number=document.querySelector('#number').value
-    let Email=document.querySelector('#email').value
-    let Pass=document.querySelector('#pass').value
-    let Cpass=document.querySelector('#cpass').value
+    let Name=document.querySelector('#name').value.trim()
+    let Number=document.querySelector('#number').value.trim()
+    let Email=document.querySelector('#email').value.trim()
+    let Pass=document.querySelector('#pass').value.trim()
+    let Cpass=document.querySelector('#cpass').value.trim()
 
     let Errname=document.querySelector('#errname')
     let Errnumber=document.querySelector('#errnumber')
@@ -18,23 +18,36 @@ let FormValidate=()=>{
         return false
     }
     else if (Number==""){
-        Errname.innerHTML="number do "
-        Errname.style.color='aqua'
+        Errnumber.innerHTML="number do "
+        Errnumber.style.color='aqua'
         return false
     }
-    else if (Email==""){
-        Errname.innerHTML="Email do"
-        Errname.style.color='aqua'
+    if (Number.length!=10){
+        Errnumber.innerHTML="please enter valid number"
         return false
     }
-    else if (Pass==""){
-        Errname.innerHTML="Maza aaya"
-        Errname.style.color='aqua'
+    else if(isNaN(Number)){
+        Errnumber.innerHTML="please enter  number"
+        return false
+
+    }
+    if (!(Email.includes("@") && Email.includes('.com'))){
+        Erremail.innerHTML="Email do"
+        Erremail.style.color='aqua'
+        return false
+    }
+    if (!(Pass.match(/[1234567890]/)&&
+    Pass.match(/[!@#$^&*]/)&&
+    Pass.match(/[a-z]/)&&
+    Pass.match(/[A-Z]/)
+    )){
+        Errpass.innerHTML="please enter strong password"
+        Errpass.style.color='aqua'
         return false
     }
     else if (Cpass==""){
-        Errname.innerHTML="kaisa laga"
-        Errname.style.color='aqua'
+        Errcpass.innerHTML="kaisa laga"
+        Errcpass.style.color='aqua'
         return false
     }
 
