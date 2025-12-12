@@ -17,9 +17,19 @@
 //     document.getElementById("para").style.display = "block";
 // }
 
-let show=()=>{
-    let okk=document.querySelector("#myname").views
-    okk.style.
+// let show=()=>{
+//     let okk=document.querySelector("#myname").views
+//     okk.style.
 
-}
+// }
+
+let a={key:"rahul"}
+let b={key:"deepak"}
+let c={key:"deep"}
+a[b]="arvind"
+a[c]="vashu"
+console.log(a)
+
+
+
 
