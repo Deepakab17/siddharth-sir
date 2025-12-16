@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(125deg,rgb(147, 247, 247),rgb(156, 131, 131));
+}
+
+div{
+
+    background-color: rgba(0, 0, 0, 0.592);
+    color: aqua;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    margin-left: 90px;
+    color: rgba(179, 255, 0, 0.611);
+}
